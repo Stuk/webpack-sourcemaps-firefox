@@ -1,0 +1,17 @@
+{
+  "name": "webpack-sourcemaps-firefox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "uglify": "uglifyjs --source-map=bundle.js.map --source-map-include-sources index.js > bundle.js",
+    "webpack": "webpack"
+  },
+  "author": "Stuart Knightley <stuart@stuartk.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "uglifyjs": "^2.4.10",
+    "webpack": "^1.9.12"
+  }
+}
